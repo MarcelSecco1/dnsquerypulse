@@ -10,6 +10,8 @@
 
 The released executable is standalone and has no runtime dependencies. No administrator/root privileges are needed.
 
+Download the prebuilt binaries from the [v0.1.0 GitHub release](https://github.com/MarcelSecco1/dnsquerypulse/releases/tag/v0.1.0), or build from source below.
+
 ## Build from source
 
 ```sh

@@ -13,6 +13,10 @@
 +-------------------------------------------------------+
 ```
 
+## Download
+
+Download the prebuilt Linux and Windows binaries from the [dnsquerypulse v0.1.0 release](https://github.com/MarcelSecco1/dnsquerypulse/releases/tag/v0.1.0).
+
 ## Documentation
 
 - [Install and build](README_INSTALL.md)
