@@ -19,7 +19,12 @@ jobs:
           cache: true
       - name: Check formatting
         shell: bash
-        run: test -z "$(gofmt -l ./cmd ./internal)"
+        run: |
+          unformatted="$(gofmt -l ./cmd ./internal)"
+          if [[ -n "$unformatted" ]]; then
+            printf 'These Go files need gofmt:\n%s\n' "$unformatted"
+            exit 1
+          fi
       - run: go vet ./...
       - run: go test ./...
       - if: runner.os == 'Linux'
