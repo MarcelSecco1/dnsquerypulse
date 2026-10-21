@@ -1,0 +1,5 @@
+/dist/
+/dnsquerypulse
+/dnsquerypulse.exe
+/dnsquerypulse.yaml
+*.test
